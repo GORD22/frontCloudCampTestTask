@@ -5,6 +5,7 @@ import App from './App';
 import './assets/style/index.scss';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,9 +13,11 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Provider store={store}>
-        <App />
-      </Provider>
+      <HashRouter basename='/'>
+        <Provider store={store}>
+          <App />
+        </Provider>
+      </HashRouter>
     </BrowserRouter>
   </React.StrictMode>
 );
