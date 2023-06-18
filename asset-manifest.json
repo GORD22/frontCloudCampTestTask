@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontCloudCampTestTask/static/css/main.f0c8f33b.css",
-    "main.js": "/frontCloudCampTestTask/static/js/main.efe4f6c4.js",
+    "main.js": "/frontCloudCampTestTask/static/js/main.8d448268.js",
     "static/media/resume.pdf": "/frontCloudCampTestTask/static/media/resume.b9c3fa7d687cb599f77c.pdf",
     "static/media/SBSansInterfaceSemibold.ttf": "/frontCloudCampTestTask/static/media/SBSansInterfaceSemibold.fcc388ef1ddbe04536c9.ttf",
     "static/media/SBSansInterface.ttf": "/frontCloudCampTestTask/static/media/SBSansInterface.979c0df052de84707146.ttf",
@@ -16,10 +16,10 @@
     "index.html": "/frontCloudCampTestTask/index.html",
     "static/media/dot.svg": "/frontCloudCampTestTask/static/media/dot.e734ce1a396ea08cbf0b.svg",
     "main.f0c8f33b.css.map": "/frontCloudCampTestTask/static/css/main.f0c8f33b.css.map",
-    "main.efe4f6c4.js.map": "/frontCloudCampTestTask/static/js/main.efe4f6c4.js.map"
+    "main.8d448268.js.map": "/frontCloudCampTestTask/static/js/main.8d448268.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c8f33b.css",
-    "static/js/main.efe4f6c4.js"
+    "static/js/main.8d448268.js"
   ]
 }
