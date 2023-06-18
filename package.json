@@ -2,7 +2,7 @@
   "name": "test-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GORD22.github.io/frontCloudCampTestTask",
+  "homepage": "https://GORD22.github.io/frontCloudCampTestTask/start",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.14.1",
