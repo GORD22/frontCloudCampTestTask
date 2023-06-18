@@ -1,25 +1,17 @@
 {
   "files": {
-    "main.css": "/frontCloudCampTestTask/static/css/main.f0c8f33b.css",
-    "main.js": "/frontCloudCampTestTask/static/js/main.86524728.js",
+    "main.css": "/frontCloudCampTestTask/static/css/main.63bb4c19.css",
+    "main.js": "/frontCloudCampTestTask/static/js/main.1db0a814.js",
     "static/media/resume.pdf": "/frontCloudCampTestTask/static/media/resume.b9c3fa7d687cb599f77c.pdf",
     "static/media/SBSansInterfaceSemibold.ttf": "/frontCloudCampTestTask/static/media/SBSansInterfaceSemibold.fcc388ef1ddbe04536c9.ttf",
     "static/media/SBSansInterface.ttf": "/frontCloudCampTestTask/static/media/SBSansInterface.979c0df052de84707146.ttf",
-    "static/media/error.svg": "/frontCloudCampTestTask/static/media/error.c0e73bf13fcf055e49a15554e618f0db.svg",
-    "static/media/cart.svg": "/frontCloudCampTestTask/static/media/cart.1650c7a175b934b2f27aefc55c49453f.svg",
-    "static/media/complite.svg": "/frontCloudCampTestTask/static/media/complite.dc9a2bd3b729e30398f070ead9c3e358.svg",
     "static/media/file.svg": "/frontCloudCampTestTask/static/media/file.adb28c1ea5c60bdbecf7.svg",
-    "static/media/cross.svg": "/frontCloudCampTestTask/static/media/cross.12697ca38f724dc86c5f432f1c3d34de.svg",
-    "static/media/tick.svg": "/frontCloudCampTestTask/static/media/tick.501987ca8dd4487a7609.svg",
-    "static/media/arrow-down.svg": "/frontCloudCampTestTask/static/media/arrow-down.9123423a0602e640c99c.svg",
-    "static/media/plus.svg": "/frontCloudCampTestTask/static/media/plus.f42cf42545107d658654f99a1d8580b8.svg",
     "index.html": "/frontCloudCampTestTask/index.html",
-    "static/media/dot.svg": "/frontCloudCampTestTask/static/media/dot.e734ce1a396ea08cbf0b.svg",
-    "main.f0c8f33b.css.map": "/frontCloudCampTestTask/static/css/main.f0c8f33b.css.map",
-    "main.86524728.js.map": "/frontCloudCampTestTask/static/js/main.86524728.js.map"
+    "main.63bb4c19.css.map": "/frontCloudCampTestTask/static/css/main.63bb4c19.css.map",
+    "main.1db0a814.js.map": "/frontCloudCampTestTask/static/js/main.1db0a814.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0c8f33b.css",
-    "static/js/main.86524728.js"
+    "static/css/main.63bb4c19.css",
+    "static/js/main.1db0a814.js"
   ]
 }
