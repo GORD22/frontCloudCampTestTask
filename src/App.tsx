@@ -8,6 +8,7 @@ const App: FC<{}> = () => {
 
   return (
     <div className={style.siteContainer}>
+      <InitialForm />
       <Routes>
         <Route path={'/'} element={<Navigate to={'/start'} />} />
         <Route path={'/start'} element={<InitialForm />} />
