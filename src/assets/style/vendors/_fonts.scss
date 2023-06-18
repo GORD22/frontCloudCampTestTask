@@ -1,0 +1,4 @@
+@use "../mixins/font-face";
+
+@include font-face.font-face("SansInterFace", "../../fonts/SBSansInterface", 400, normal);
+@include font-face.font-face("SansInterFaceSemibold", "../../fonts/SBSansInterfaceSemibold", 600, normal);

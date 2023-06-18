@@ -1,0 +1,63 @@
+.substrate {
+    background: rgba(0, 0, 0, 0.16);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal {
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 96%;
+    max-width: 460px;
+    padding: 32px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+
+    &__title {
+        margin: 0;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--dark-color);
+    }
+
+    &__status {
+        display: block;
+        margin: 50px auto;
+    }
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: center;
+
+    &_isnSuccess {
+        justify-content: space-between;
+    }
+}
+
+.titleBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 50%;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+
+    &_isnSuccess {
+        justify-content: end;
+    }
+}

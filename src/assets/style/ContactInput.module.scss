@@ -1,0 +1,30 @@
+.inputWrpper {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactLabel {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--dark-color);
+}
+
+.contactInput {
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    height: 44px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.48);
+    }
+}

@@ -1,0 +1,35 @@
+.fieldArrayContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+
+    &>div {
+        margin-top: 0;
+    }
+}
+
+.deleteBtn {
+    margin-left: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.addBtn {
+    margin-top: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 12px;
+    padding-bottom: 10px;
+    border: 1.5px solid #5558FA;
+    border-radius: 4px;
+}
+
+.clickerContainer {
+    margin-top: 24px;
+}
+
+.clickerWrapper {
+    display: flex;
+    flex-direction: column;
+}

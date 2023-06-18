@@ -1,0 +1,15 @@
+@use "./vendors/vars";
+@use "./vendors/fonts";
+
+.siteContainer {
+    margin: 0 auto;
+    margin-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    width: 100%;
+    max-width: 900px;
+    background-color: var(--light-color);
+    border-radius: 12px 12px 0px 0px;
+
+    font-family: var(--font-family-first);
+}

@@ -1,0 +1,46 @@
+.main {
+    padding-right: 74px;
+    padding-bottom: 80px;
+    padding-left: 86px;
+}
+
+.btnsBlock {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textareaWrapper {
+    position: relative;
+}
+
+.textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: 84px;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    &::placeholder {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.48);
+    }
+}
+
+.symbolCount {
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+
+@media (max-width: 630px) {
+    .main {
+        padding-right: 32px;
+        padding-bottom: 45px;
+        padding-left: 44px;
+    }
+}

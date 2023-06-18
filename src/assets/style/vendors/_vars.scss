@@ -1,0 +1,14 @@
+:root {
+    // base
+    --font-family-first: "SansInterFace", sans-serif;
+    --font-family-second: "SansInterFaceSemibold", sans-serif;
+    --content-width: 1170px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  
+    // colors
+    --light-color: #fff;
+    --dark-color: #333333;
+    --blue-color: #5558FA;
+  }
+  
