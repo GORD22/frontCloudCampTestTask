@@ -11,7 +11,8 @@ interface Props {
 
 export const CustomTextInput: FC<Props> = ({ label, name, placeholder, tip }) => {
 
-    const [field, meta] = useField({ name })
+    const [field, meta] = useField({ type: 'text', name })
+    meta.touched = true
 
     return (
         <div className={style.inputWrpper}>
@@ -21,13 +22,13 @@ export const CustomTextInput: FC<Props> = ({ label, name, placeholder, tip }) =>
                     {label}
                 </label>
             }
-            <input className={style.customInput} {...field} type={'text'} name={name} placeholder={placeholder} />
+            <input className={style.customInput} {...field} type={'text'} name={name} placeholder={placeholder} required/>
             {
                 tip ?
                     <label htmlFor={name} className={style.tip}>Tip</label> :
                     undefined
             }
-            {meta.touched && meta.error ? (
+            { meta.touched && meta.error ? (
                 <div className={style.error}>{meta.error}</div>
             ) : null}
         </div>

@@ -1,16 +1,17 @@
 import { Form, Formik, FormikHelpers } from "formik";
 import { FC, useState } from "react";
+import { createPortal } from 'react-dom';
 import { useNavigate } from "react-router-dom";
 import style from '../assets/style/ExtendedForm.module.scss';
 import { useAppDispatch, useAppSelector } from '../hooks/redux';
+import { userAPI } from "../services/UserService";
 import { FormState, setExtendedForm } from '../store/reducers/FormSlice';
 import { FirstPart } from './ExtendedFormParts/FirstPart';
 import { SecondPart } from './ExtendedFormParts/SecondPart';
 import { ThirdPart } from './ExtendedFormParts/ThirdPart';
 import { ExtendedHeader } from './ExtendedHeader';
-import { createPortal } from 'react-dom'
 import { ModalWindow } from "./ModalWindow";
-import { userAPI } from "../services/UserService";
+
 
 export interface Values {
     nickname: string
@@ -106,7 +107,6 @@ export const ExtendedForm: FC = () => {
     const submit = async (values: Values, actions: FormikHelpers<Values>) => {
         const formatedValues = {...values, sex: sex, about: about, radio: +values.radio}
         await addNewInfo({...formatedValues, ...contactData} as FormState)
-
     }
 
     return (
@@ -122,11 +122,12 @@ export const ExtendedForm: FC = () => {
             >
                 {({ errors, values, handleSubmit, isValid }) => (
                     <Form onSubmit={e => {
-                        if (isValid) {
+                        if (values.name || values.nickname || values.sername || values.sex || values.about) {
                             handleSubmit(e)
                             setShowModal(true)
                             setIsSuccess(true)
                         } else {
+                            e.preventDefault()
                             setShowModal(true)
                             setIsSuccess(false)
                         }
